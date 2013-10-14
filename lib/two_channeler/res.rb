@@ -1,5 +1,5 @@
-require "./two_channeler/parser"
-require "./two_channeler/thread"
+require "two_channeler/parser"
+require "two_channeler/thread"
 require 'time'
 
 module TwoChanneler

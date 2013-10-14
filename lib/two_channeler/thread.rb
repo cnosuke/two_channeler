@@ -1,5 +1,5 @@
-require "./two_channeler/parser"
-require "./two_channeler/res"
+require "two_channeler/parser"
+require "two_channeler/res"
 
 module TwoChanneler
 	class Thread
