@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'two_channeler/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "twochanneler"
-  spec.version       = twochanneler::VERSION
+  spec.name          = "two_channeler"
+  spec.version       = TwoChanneler::VERSION
   spec.authors       = ["Shinnosuke TAKEDA"]
   spec.email         = ["shinnosuke@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = "2ch Parser"
+  spec.summary       = "2ch Parser"
   spec.homepage      = ""
   spec.license       = "MIT"
 
