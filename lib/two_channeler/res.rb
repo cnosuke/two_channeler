@@ -3,16 +3,16 @@ require "./two_channeler/thread"
 require 'time'
 
 module TwoChanneler
-	class Res
-		attr_reader :name, :email, :date, :id, :body, :res
-		def initialize(d, t)
+  class Res
+    attr_reader :name, :email, :date, :id, :body, :res
+    def initialize(d, t)
       @thread = t
       d.shift.gsub(/\s*\<\/?b\>/,'') =~ /(.+)\((.+)\)/
       @name = $1
       @pref = $2
-			@email = d.shift
+      @email = d.shift
       @res = []
-			t, @id = d.shift.split(/\ ID\:/)
+      t, @id = d.shift.split(/\ ID\:/)
       unless t =~ /Over 1000 Thread/
         @date = Time.parse(t)
       else
@@ -24,6 +24,6 @@ module TwoChanneler
         @res << $1.to_i
         ">>#{$1}"
       end
-		end
-	end
+    end
+  end
 end
