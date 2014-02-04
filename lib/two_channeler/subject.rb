@@ -1,6 +1,4 @@
-require "./two_channeler/parser"
-require "./two_channeler/res"
-require "./two_channeler/thread"
+require './two_channeler'
 
 module TwoChanneler
   class Subject
@@ -20,4 +18,3 @@ module TwoChanneler
     end
   end
 end
-

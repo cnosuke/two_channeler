@@ -1,4 +1,5 @@
 require 'open-uri'
+
 module TwoChanneler
   class Parser
   	def self.parse(file)
