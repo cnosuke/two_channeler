@@ -1,4 +1,4 @@
-Copyright (c) 2013 Shinnosuke TAKEDA
+Copyright (c) 2013-2014 Shinnosuke TAKEDA
 
 MIT License
 
